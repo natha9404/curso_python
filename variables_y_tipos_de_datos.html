@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Variables y Tipos de Datos | Curso de Ciencia de Datos con Python </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Andres Humberto Hurtado Aldana" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-6"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Curso de Ciencia de Datos con Python</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Curso de Ciencia de Datos con Python</a></li>
+   <li><a href="introduccion_por_que_python.html" class="daddy">Introduccion: Por que Python?</a>
+   <ul class="other-section">
+      <li><a href="actividad.html" class="no-ch">Actividad</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="python_bsico.html" class="current-page-parent daddy">Python Básico</a>
+   <ul>
+      <li id="active"><a href="variables_y_tipos_de_datos.html" class="active daddy">Variables y Tipos de Datos</a>
+      <ul>
+         <li><a href="ejemplo.html" class="no-ch">Ejemplo</a></li>
+      </ul>
+      </li>
+      <li><a href="operadores.html" class="daddy">Operadores</a>
+      <ul class="other-section">
+         <li><a href="ejemplo0.html" class="no-ch">Ejemplo</a></li>
+      </ul>
+      </li>
+      <li><a href="estructuras_de_control_de_flujo.html" class="daddy">Estructuras de Control de Flujo</a>
+      <ul class="other-section">
+         <li><a href="ejemplo_ifelse.html" class="no-ch">Ejemplo if-else</a></li>
+         <li><a href="ejemplo_ifelifelse.html" class="no-ch">Ejemplo if-elif-else</a></li>
+         <li><a href="ejemplo_while.html" class="no-ch">Ejemplo While</a></li>
+         <li><a href="ejemplo_for.html" class="no-ch">Ejemplo For</a></li>
+         <li><a href="ejemplo_break.html" class="no-ch">Ejemplo break</a></li>
+      </ul>
+      </li>
+      <li><a href="repasemos_conocimientos.html" class="no-ch">Repasemos conocimientos</a></li>
+   </ul>
+   </li>
+   <li><a href="librerias_para_ciencia_de_datos.html" class="daddy">Librerias para Ciencia de Datos</a>
+   <ul class="other-section">
+      <li><a href="numpy.html" class="no-ch">Numpy</a></li>
+      <li><a href="pandas.html" class="no-ch">Pandas</a></li>
+      <li><a href="matpotlib.html" class="no-ch">Matpotlib</a></li>
+      <li><a href="scikitlearn.html" class="no-ch">Scikit-Learn</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="python_bsico.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejemplo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Variables y Tipos de Datos</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id10">
+<div class="iDevice emphasis0" >
+<div id="ta10_130_2" class="block iDevice_content">
+<div class="exe-text"><p>En Python, existen varios tipos de variables que se utilizan para almacenar diferentes tipos de datos. Los tipos de variables más comunes en Python son los siguientes:</p>
+<ul>
+<li><strong>Números enteros</strong> (int): Representan valores numéricos enteros, como -1, 0, 1, 100, etc. Se pueden realizar operaciones aritméticas con variables de tipo entero.</li>
+<li><strong>Números de punto flotante</strong> (float): Representan valores numéricos con decimales, como 3.14, 2.718, -0.5, etc. Se utilizan para operaciones que requieren precisión decimal.</li>
+<li><strong>Cadena de texto</strong> (str): Representa una secuencia de caracteres, como "Hola", "Python", "123", etc. Las cadenas se definen entre comillas simples ('') o comillas dobles ("").</li>
+<li><strong>Booleano</strong> (bool): Representa un valor de verdad, que puede ser verdadero (True) o falso (False). Se utilizan en expresiones lógicas y estructuras de control.</li>
+</ul>
+<p>Además de estos tipos de variables básicos, Python también proporciona estructuras de datos más complejas, como listas, tuplas y diccionarios, que pueden contener múltiples valores.</p>
+<ul>
+<li><strong>Listas</strong> (list): Representan una colección ordenada y modificable de elementos. Los elementos en una lista pueden ser de diferentes tipos y se pueden acceder y modificar utilizando índices.</li>
+<li><strong>Tuplas</strong> (tuple): Son similares a las listas, pero son inmutables, lo que significa que no se pueden modificar después de su creación. Se utilizan para almacenar conjuntos de elementos que no deben cambiar.</li>
+<li><strong>Diccionarios</strong> (dict): Representan una colección de pares clave-valor. Cada elemento en un diccionario está asociado con una clave única y su respectivo valor. Se utilizan para almacenar y recuperar datos de manera eficiente utilizando claves.</li>
+</ul>
+<p>Estos son solo algunos ejemplos de los tipos de variables en Python. Python es un lenguaje de tipado dinámico, lo que significa que no es necesario declarar el tipo de una variable de antemano, ya que se infiere automáticamente según el valor asignado. Esto proporciona flexibilidad al programar en Python y facilita la manipulación de diferentes tipos de datos en un mismo programa.</p></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="python_bsico.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejemplo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_intef_js.js"></script></body></html>
